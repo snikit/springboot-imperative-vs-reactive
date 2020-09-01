@@ -1,0 +1,17 @@
+scenarios: 
+ UsersList: 
+  requests: 
+   - url: http://localhost:8080/reactive/users/
+     label: Users Listing
+execution: 
+ - scenario: UsersList
+   concurrency: 5000
+   ramp-up: 2s
+   hold-for: 60s
+reporting:
+ - module: console 
+ - module: final-stats 
+   summary: true 
+   percentiles: true
+   test-duration: true 
+   dump-csv: report.csv
