@@ -7,7 +7,7 @@
 
 
 ## Reactive implementation loat test report <br>
-![Alt text](.reports/imperative%20implementation%20load%20test%20report.png?raw=true "Reactive implementation loat test report")
+![Alt text](.reports/reactive%20implementation%20load%20test%20report.png?raw=true "Reactive implementation loat test report")
 
 
 **above loat test was performed with following parameters: <br>
