@@ -10,7 +10,7 @@
 ![Alt text](.reports/reactive%20implementation%20load%20test%20report.png?raw=true "Reactive implementation loat test report")
 
 
-**above loat test was performed with following parameters: <br>
+**above loat test was performed using [Taurus](https://gettaurus.org/) with following parameters: <br>
    concurrency: 5000<br>
    ramp-up: 2s<br>
    hold-for: 60s**
